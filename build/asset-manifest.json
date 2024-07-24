@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./public/assets/static/css/main.71fff403.css",
+    "main.js": "./public/assets/static/js/main.e5fae80b.js",
+    "static/js/453.1407b060.chunk.js": "./public/assets/static/js/453.1407b060.chunk.js",
+    "static/media/remixicon.svg?t=1708865856766": "./public/assets/static/media/remixicon.7735fab8dbf8ff78afe9.svg",
+    "static/media/remixicon.eot?t=1708865856766": "./public/assets/static/media/remixicon.8542c1bb279bcd77063a.eot",
+    "static/media/remixicon.ttf?t=1708865856766": "./public/assets/static/media/remixicon.4c942de19d980993f612.ttf",
+    "static/media/remixicon.woff?t=1708865856766": "./public/assets/static/media/remixicon.28ceff39ee3e17dc99db.woff",
+    "static/media/remixicon.woff2?t=1708865856766": "./public/assets/static/media/remixicon.39f4def56d0e8712909a.woff2",
+    "index.html": "./public/assets/index.html",
+    "main.71fff403.css.map": "./public/assets/static/css/main.71fff403.css.map",
+    "main.e5fae80b.js.map": "./public/assets/static/js/main.e5fae80b.js.map",
+    "453.1407b060.chunk.js.map": "./public/assets/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71fff403.css",
+    "static/js/main.e5fae80b.js"
+  ]
+}
