@@ -1,0 +1,118 @@
+#about {
+  padding-top: 26px;
+  width: 100%;
+  height: 100vh;
+  /* background-color: red; */
+}
+.navbar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: -20px;
+  margin-bottom: 40px;
+}
+.navbar > h3 {
+  font-size: 1.1vw;
+  font-weight: normal;
+  margin-bottom: -6px;
+}
+.navbar > h1 {
+  font-size: 3.4vw;
+  margin-left: 16px;
+}
+.content {
+  /* background-color: red; */
+  width: 100%;
+  height: 52vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 200px; */
+}
+.left {
+  width: 35%;
+  height: 100%;
+  display: flex;
+  /* align-items: end; */
+  justify-content: end;
+  /* background-color: green; */
+}
+.right {
+  width: 55%;
+  height: 100%;
+  padding: 20px 0px;
+  /* margin-left: -20px; */
+  /* background-color: blue; */
+}
+.top {
+  width: 100%;
+  height: 58%;
+
+  display: flex;
+  /* justify-content: center; */
+  padding-left: 40px;
+  gap: 24px;
+  align-items: end;
+}
+.btm {
+  width: 88%;
+  height: 55%;
+  font-size: 1vw;
+  padding: 0px 40px;
+  display: flex;
+  align-items: center;
+  /* background-color: red; */
+  color: rgb(85, 85, 85);
+}
+.tleft {
+  width: 39%;
+  height: 92%;
+  border: 1.4px solid rgb(85, 85, 85);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.tleft > h1 {
+  font-size: initial;
+  font-weight: bold;
+}
+.tleft > h2 {
+  font-size: initial;
+  font-weight: normal;
+  color: rgb(85, 85, 85);
+}
+.tright {
+  width: 39%;
+  height: 92%;
+  border: 1.4px solid rgb(85, 85, 85);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  justify-content: center;
+}
+.tright > h1 {
+  font-size: initial;
+  font-weight: bold;
+}
+.tright > h2 {
+  font-size: initial;
+  font-weight: normal;
+  color: rgb(85, 85, 85);
+}
+.left > img {
+  border-radius: 40px;
+  height: 102%;
+  width: 85%;
+}
+i {
+  font-size: 2vw;
+  font-weight: bold;
+}
+.na {
+  opacity: 0;
+}

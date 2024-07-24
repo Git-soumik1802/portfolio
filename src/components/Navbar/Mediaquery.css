@@ -1,0 +1,84 @@
+@media screen and (max-width: 700px) {
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  .cl {
+    display: none;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .nav {
+    display: none;
+    /* opacity: 0; */
+    padding: 0px;
+  }
+  .hammenu {
+    width: 100vw;
+    height: 8vh;
+    padding: 28px 14px;
+    /* background-color: red; */
+    display: initial;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+  }
+  .hammenu h4 {
+    font-size: 1.7rem;
+  }
+  .hammenu span {
+    font-size: 1.7rem;
+  }
+  .hammenu i {
+    font-size: 2.5rem;
+  }
+  #layout {
+    display: initial;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    /* padding: 1rem 0.8rem; */
+    transition: all ease-in-out 1s;
+  }
+  .ilayout > i {
+    font-size: 2.6rem;
+    float: right;
+    cursor: pointer;
+    margin-right: 1.6rem;
+    padding-top: 1.6rem;
+  }
+  .alayout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+  }
+  .alayout > a {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    color: white;
+  }
+  body,
+  html {
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,57 @@
+#contact {
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: red; */
+}
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28px;
+  border: 2px solid rgb(85, 85, 85);
+  padding: 8px 24px;
+
+  border-radius: 8px;
+}
+.d {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  /* background-color: red; */
+}
+.a,
+.b {
+  display: flex;
+  gap: 8px;
+}
+.a > a {
+  font-weight: normal;
+}
+.b > a {
+  font-weight: normal;
+}
+.d i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.tag {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+hr {
+  font-weight: bold;
+  /* width: 10px; */
+  /* height: 10px; */
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 56px;
+  border-top: 1.8px solid rgb(85, 85, 85);
+}

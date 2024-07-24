@@ -1,0 +1,35 @@
+@media screen and (max-width: 700px) {
+  .mail {
+    width: 50vw;
+    height: 20vh;
+    gap: 0.8rem;
+    border: 1.6px solid rgb(85, 85, 85);
+  }
+  .d {
+    /* width: 80vw; */
+    padding: 0rem;
+  }
+  .a > i,
+  .a > a {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+  .b > i,
+  .b > a {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+  }
+  .tag {
+    margin-top: 3.6rem;
+    gap: 1.2rem;
+  }
+  .tag > a {
+    font-size: 1.2rem;
+  }
+  hr {
+    margin-top: 7rem;
+    border-top: 0.2rem solid rgb(85, 85, 85);
+  }
+}

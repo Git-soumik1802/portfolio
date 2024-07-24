@@ -1,0 +1,28 @@
+@media screen and (max-width: 700px) {
+  .head > h6 {
+    font-size: 01rem;
+  }
+  .head > h1 {
+    font-size: 1.6rem;
+  }
+  .cont {
+    flex-direction: column;
+    padding-top: 1.6rem;
+    gap: 2.8rem;
+  }
+  .cont .box {
+    width: 92vw;
+    height: 57vh;
+  }
+  .box > h1 {
+    font-size: 1.6rem;
+  }
+  .buttonn {
+    gap: 1.6rem;
+  }
+  .buttonn > a {
+    padding: 0.6rem 2rem;
+    font-size: 0.8rem;
+    border-radius: 18px;
+  }
+}

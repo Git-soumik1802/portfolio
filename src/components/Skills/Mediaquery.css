@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px) {
+  #skills {
+    min-height: 96vh;
+    /* background-color: red; */
+  }
+  .heading > h2 {
+    font-size: 1rem;
+    margin-bottom: -0.2rem;
+  }
+
+  .heading > h1 {
+    font-size: 1.6rem;
+  }
+  .parent {
+    width: 100%;
+    gap: 0.2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0.3rem;
+    /* background-color: red; */
+  }
+  .child1 {
+    width: 50%;
+    height: 70%;
+    margin-bottom: 0.5rem;
+
+    /* background-color: blue; */
+  }
+  .row {
+    /* background-color: red; */
+    padding: 0px 8px;
+  }
+  .nbar > h1 {
+    font-size: 1.24rem;
+  }
+  .one,
+  .two {
+    gap: 0.3rem;
+  }
+  .one > i,
+  .one > h4,
+  .two > i,
+  .two > h4 {
+    font-size: 0.75rem;
+    color: black;
+    font-weight: normal;
+  }
+}

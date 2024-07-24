@@ -1,0 +1,91 @@
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  gap: 40px;
+  margin-top: -4vh;
+  margin-bottom: 4px;
+}
+img {
+  width: 320px;
+  height: 305px;
+  border-radius: 54%;
+  object-fit: cover;
+  background-color: grey;
+}
+h3,
+h5 {
+  color: rgb(85, 85, 85);
+}
+.information {
+  text-align: center;
+  align-items: center;
+  /* background-color: red; */
+}
+h3 {
+  font-size: 1.6vw;
+  margin-left: 16px;
+  margin-bottom: 16px;
+}
+h5 {
+  font-size: 1.2vw;
+}
+h1 {
+  font-size: 2.8vw;
+  margin-top: 6px;
+}
+.downloads {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.same {
+  font-size: 2vw;
+}
+button {
+  font-weight: 600;
+  transition: all 400ms ease;
+  padding: 0.6rem;
+  width: 7rem;
+  border-radius: 2rem;
+
+  align-items: center;
+  margin-left: 16px;
+}
+.btn {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.822);
+  border: 1.5px solid rgba(0, 0, 0, 0.137);
+  cursor: pointer;
+}
+.btn2 {
+  border: 1.5px solid rgba(0, 0, 0, 0.534);
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+.btn2:hover {
+  background-color: black;
+  color: white;
+}
+.downloads > a:hover {
+  background-color: black;
+}
+.downloads > a {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.822);
+  border: 1.5px solid rgba(0, 0, 0, 0.137);
+  cursor: pointer;
+  font-size: 1.13vw;
+  /* padding: 1px; */
+  font-weight: 600;
+  transition: all 400ms ease;
+  padding: 0.49rem;
+  width: 6.9rem;
+  border-radius: 2rem;
+
+  align-items: center;
+  margin-left: 16px;
+  font-weight: normal;
+}

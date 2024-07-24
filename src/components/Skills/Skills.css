@@ -1,0 +1,79 @@
+
+#skills {
+  width: 100%;
+  min-height: 100vh;
+}
+.heading {
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.heading > h2 {
+  font-size: 1.1vw;
+  color: rgb(85, 85, 85);
+  font-weight: normal;
+}
+.main {
+  width: 100%;
+  height: 100%;
+}
+.parent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 18px;
+}
+.child1 {
+  width: 35%;
+  height: 80%;
+  border: 2px solid rgb(85, 85, 85);
+  border-radius: 2rem;
+}
+.nbar {
+  height: 100%;
+  padding: 8px;
+}
+.nbar {
+  width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nbar > h1 {
+  font-size: 2.2vw;
+  margin-bottom: 1vw;
+  color: rgb(85, 85, 85);
+}
+.child2 {
+  width: 35%;
+  height: 80%;
+  background-color: green;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  padding: 4px 3.5rem;
+}
+.one,
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.row h4 {
+  font-size: 1.28vw;
+  font-weight: normal;
+}
+.two {
+  /* justify-content: flex-start; */
+}
